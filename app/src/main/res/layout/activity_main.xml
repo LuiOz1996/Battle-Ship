@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1BACEE"
+    android:outlineAmbientShadowColor="#FBFBFB"
+    tools:context=".MainActivity">
+
+
+    <SurfaceView
+        android:id="@+id/preview"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="250dp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/field_user"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/field_virtual_player"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="140dp"
+        android:gravity="center"
+        android:textSize="20sp">
+    </TextView>
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="105dp"
+        android:text="@string/x_and_y"
+        android:layout_marginStart="60dp" />
+
+    <EditText
+        android:id="@+id/x"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="140dp"
+        android:layout_marginBottom="100dp"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginStart="140dp" />
+    <EditText
+        android:id="@+id/y"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="210dp"
+        android:layout_marginBottom="100dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/Play"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:background="#F9E558"
+        android:text="@string/play"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/Shoot"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:background="#F9E558"
+        android:text="@string/shoot"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/heartRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</RelativeLayout>

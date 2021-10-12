@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">BattleShipV.02</string>
+    <string name="play">Start Fight</string>
+    <string name="todo">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="start">Start</string>
+    <string name="set_ship">Set ship</string>
+    <string name="choose_easy">Choose easy level</string>
+    <string name="choose_medium">Choose medium level</string>
+    <string name="the_selected">The selected difficulty level:</string>
+    <string name="choose_hard_level">Choose hard level</string>
+    <string name="go">GO</string>
+    <string name="todo4">TODO</string>
+    <string name="question"><p>Сделать выстрел - введите координаты клетки (x,y) в поле над кнопкой PLAY</p>
+    <p>Жмите кнопку PLAY и вы совершите выстрел, на это у вас есть 30 сек</p>
+        <p>Обозначения:</p>
+        <p>0  - пустая клетка</p>
+        <p>1  - стоит корабль</p>
+        <p>-1 - простреленная область поля (или область, в которую стрелять бесполезно)</p>
+        <p>-2 - простреленная часть корабля</p></string>
+    <string name="enter_the_coordinates">Enter the coordinates of the ship\'s head:</string>
+    <string name="horizontal_yes_no">Horizontal? (YesNo)</string>
+    <string name="number_of_decks">Number of decks:</string>
+    <string name="shoot">Shoot</string>
+    <string name="welcome">Welcome to the Battle Ships. Click on "Go". And enjoy the game</string>
+    <string name="x_and_y">X and Y:</string>
+    <string name="vertical">Vertical</string>
+    <string name="horizontal">Horizontal</string>
+</resources>

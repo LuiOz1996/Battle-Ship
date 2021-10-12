@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/setting_ship"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1AADEE">
+
+    <TextView
+        android:id="@+id/field_user_player"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:textSize="18sp"
+        android:gravity="center">
+    </TextView>
+
+    <TextView
+        android:id="@+id/coordinates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="290dp"
+        android:textSize="20sp"
+        android:text="@string/enter_the_coordinates" />
+
+    <EditText
+        android:id="@+id/editText_coordinates_x"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="250dp"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"/>
+    <EditText
+        android:id="@+id/editText_coordinates_y"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="250dp"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginLeft="200dp"
+        android:layout_marginStart="200dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="50dp"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="230dp"
+        android:layout_marginBottom="170dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="230dp">
+
+        <RadioButton
+            android:id="@+id/radio_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"			/>
+
+        <RadioButton
+            android:id="@+id/radio_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/horizontal"
+        android:textSize="25sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginBottom="210dp"
+        android:layout_marginStart="110dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vertical"
+        android:textSize="25sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginBottom="175dp"
+        android:layout_marginStart="120dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="130dp"
+        android:layout_marginLeft="70dp"
+        android:textSize="25sp"
+        android:text="@string/number_of_decks"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="70dp" />
+
+    <TextView
+        android:id="@+id/number_decks"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="280dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginBottom="130dp"
+        android:textSize="25sp"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="@string/start"
+        android:background="#F9E558"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/set_ship"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp"
+        android:text="@string/set_ship"
+        android:background="#F9E558"
+        android:textSize="20sp"/>
+
+
+</RelativeLayout>
