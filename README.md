@@ -8,7 +8,7 @@
 Всего в приложении содержиться три интерфейса.
 <br>
 <h3>Меню</h3>
-![1](https://user-images.githubusercontent.com/51347241/137015169-42b82536-6acc-46e4-ab1e-a61aa75be764.png)
+![Image alt](https://user-images.githubusercontent.com/51347241/137015169-42b82536-6acc-46e4-ab1e-a61aa75be764.png)
 <h3>Поля на заполнение кораблей</h3>
 ![2](https://user-images.githubusercontent.com/51347241/137015165-5515831f-ee6c-49ff-ab53-5c2127258e2c.png)
 <h3>Cамо поле боя</h3>
