@@ -8,8 +8,11 @@
 Всего в приложении содержиться три интерфейса.
 <br>
 <h3>Меню</h3>
-![Image alt](https://user-images.githubusercontent.com/LuiOz1996/battleship/raw/master/Image/1.png)
+
+![1](https://user-images.githubusercontent.com/51347241/137016016-7fbc9514-e6da-4ab7-9d3a-645ada127d5d.png)
 <h3>Поля на заполнение кораблей</h3>
-![2](https://user-images.githubusercontent.com/51347241/137015165-5515831f-ee6c-49ff-ab53-5c2127258e2c.png)
+
+![2](https://user-images.githubusercontent.com/51347241/137016015-e202e4d4-fcee-4e38-aa38-20300f418fa3.png)
 <h3>Cамо поле боя</h3>
-![3](https://user-images.githubusercontent.com/51347241/137015167-461073a3-2f15-42eb-8646-cccc0c0d6cea.png)
+
+![3](https://user-images.githubusercontent.com/51347241/137016010-aeec4411-207b-4503-a620-8a22d91d4812.png)
